@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DeepLink-nav</string>
+
+    <!-- Buttons -->
+    <string name="btn_nav_to_details">Go to details</string>
+    <string name="btn_nav_to_web_view">Go to WebView</string>
 </resources>
