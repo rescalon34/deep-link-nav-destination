@@ -5,9 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import com.escalondev.deeplink_nav.databinding.FragmentHomeBinding
 
-class FragmentHome : Fragment() {
+class HomeFragment : Fragment() {
 
     lateinit var binding: FragmentHomeBinding
 
@@ -18,5 +19,16 @@ class FragmentHome : Fragment() {
     ): View {
         binding = FragmentHomeBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        setupListeners()
+    }
+
+    private fun setupListeners() {
+        binding.tvNavToDetails.setOnClickListener {
+            findNavController().navigate(HomeFragmentDirections.actionFragmentHomeToDetailsGraph())
+        }
     }
 }

@@ -2,6 +2,11 @@
     <string name="app_name">DeepLink-nav</string>
 
     <!-- Buttons -->
-    <string name="btn_nav_to_details">Go to details</string>
+    <string name="btn_nav_to_details">Go to details by param</string>
     <string name="btn_nav_to_web_view">Go to WebView</string>
+
+    <!-- Details -->
+    <string name="details_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="details_web_view_title">WebView</string>
+    <string name="details_open_website">Open website</string>
 </resources>
