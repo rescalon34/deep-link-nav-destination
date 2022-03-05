@@ -39,7 +39,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_nav_to_details" />
 
     <TextView
-        android:id="@+id/tv_nav_to_web_view"
+        android:id="@+id/tv_nav_to_website"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -58,5 +58,27 @@
         android:background="@color/color_divider"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tv_nav_to_web_view" />
+        app:layout_constraintTop_toBottomOf="@id/tv_nav_to_website" />
+
+    <TextView
+        android:id="@+id/tv_nav_to_website_by_param"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:elevation="8dp"
+        android:padding="16dp"
+        android:text="@string/details_open_website_by_param"
+        app:drawableEndCompat="@drawable/ic_chevron"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_second_divider" />
+
+    <View
+        android:id="@+id/view_third_divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/color_divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_nav_to_website_by_param" />
 </androidx.constraintlayout.widget.ConstraintLayout>

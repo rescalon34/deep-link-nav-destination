@@ -18,5 +18,18 @@
         android:id="@+id/webViewFragment"
         android:name="com.escalondev.deeplink_nav.ui.detail.WebViewFragment"
         android:label="WebView"
-        tools:layout="@layout/fragment_web_view" />
+        tools:layout="@layout/fragment_web_view">
+
+        <argument
+            android:name="url"
+            android:defaultValue="https://developer.android.com/docs"
+            app:argType="string"
+            app:nullable="true" />
+
+        <!-- simple navigation -->
+        <deepLink app:uri="@string/nav_to_web_view_fragment" />
+
+        <!-- this will receive a parameter -->
+        <deepLink app:uri="@string/nav_to_web_view_fragment_with_params" />
+    </fragment>
 </navigation>

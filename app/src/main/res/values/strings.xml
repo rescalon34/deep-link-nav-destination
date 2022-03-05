@@ -9,4 +9,9 @@
     <string name="details_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <string name="details_web_view_title">WebView</string>
     <string name="details_open_website">Open website</string>
+    <string name="details_open_website_by_param">Open website by param</string>
+
+    <!-- Deep Link URIs -->
+    <string name="nav_to_web_view_fragment" translatable="false">android-app://webViewFragment</string>
+    <string name="nav_to_web_view_fragment_with_params" translatable="false">android-app://webViewFragment/{url}</string>
 </resources>
